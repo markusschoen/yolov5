@@ -1,0 +1,20 @@
+path: ../datasets/bdd_yolo  # dataset root dir
+train: train.txt
+val: val.txt
+test: test.txt
+
+# Classes
+names:
+  0: pedestrian
+  1: rider
+  2: car
+  3: bus
+  4: truck
+  5: bicycle
+  6: motorcycle
+  7: tl_green
+  8: tl_red
+  9: tl_yellow
+  10: tl_none
+  11: traffic sign
+  12: train
